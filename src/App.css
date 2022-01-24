@@ -1,0 +1,45 @@
+:root {
+  --primary: chocolate;
+  background-color: var(--primary);
+}
+#page {
+  display: flex;
+  flex-direction: column;
+  min-height: 100vh;
+  justify-content: center;
+  align-items: center;
+}
+#quote-box {
+  display: flex;
+  flex-direction: column;
+  background-color: wheat;
+  width: 40%;
+  padding: 20px;
+  border-radius: 3%;
+}
+
+#text {
+  margin: 0;
+  width: 100%;
+  color: var(--primary);
+}
+#author {
+  display: flex;
+  justify-content: flex-end;
+  padding-right: 2vh;
+  color: var(--primary);
+}
+#buttons {
+  display: flex;
+  width: 100%;
+  justify-content: space-between;
+}
+#new-quote {
+  background-color: var(--primary);
+  justify-content: flex-end;
+  border-radius: 10%;
+  border-color: var(--primary);
+  border-width: 1px;
+  color: white;
+  font-size: 14px;
+}
